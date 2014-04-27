@@ -1,7 +1,7 @@
-##makeCacheMatrix: Creates a special "matrix" object that can cache its inverse.
-##cacheSolve: Computes the inverse of the special "matrix" returned by makeCacheMatrix above.
+## makeCacheMatrix: Creates a special "matrix" object that can cache its inverse.
+## cacheSolve: Computes the inverse of the special "matrix" returned by makeCacheMatrix above.
 
-## Write a short comment describing this function
+
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
 
 ## The first function, makeVector creates a special "matrix", which is really a list containing a function to
@@ -29,6 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve: This function computes the inverse of the special "matrix" returned by makeCacheMatrix above.
+
 ## The following function calculates the inverse matrix of the special "matrix" created with the above function. 
 ## However, it first checks to see if the inverse matrix has already been calculated. 
 ## If so, it gets the inverse matrix from the cache and skips the computation. 
